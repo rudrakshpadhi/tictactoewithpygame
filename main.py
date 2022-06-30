@@ -50,6 +50,7 @@ while running:
                     
                 elif((board[xposition][yposition] in range(0,10))and(turn%2!=0)):
                     board[xposition][yposition]='O'
+                    surface.blit(cross,(xposition*270,yposition*270))
                     print(board)
 
             except IndexError:
