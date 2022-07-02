@@ -19,7 +19,7 @@ for i in range(1,4):
         pygame.display.flip()
         j+=270
     i+=270
-cross=pygame.image.load('images/36-368091_heart-simple-shape-silhouette-tic-tac-toe-cross.png')
+cross=pygame.image.load('images/images.png')
 cross=pygame.transform.scale(cross,(200,200))
 circle=pygame.image.load('images/circle-black-outline-circle-black-outline-frame-vector-107159631.jpg')
 circle=pygame.transform.scale(circle,(200,200))
